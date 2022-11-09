@@ -1,0 +1,61 @@
+@font-face {
+    font-family: apple;
+    src: url(../../fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+body{   
+    background-image:url(background.jpg);
+    display: flex;
+    justify-content: center;
+    margin:0;
+    height:100vh;
+    flex-direction: row;
+    background-attachment: fixed;
+    background-size:cover ;
+}
+#circle{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 0px;
+    border-style: solid;
+    margin-left:25px;
+    margin-bottom: 70px;
+}
+#circle img{
+    height:150px;
+    width:150px;
+    z-index: -1;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.464);
+}
+h1{
+    color:white;
+    font-family: apple;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 10px black;
+}
+input{
+    height:30px;
+    width:200px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.226);
+    border-radius: 20px;
+    border-style: none;
+    outline: none;
+    padding-left:5px;
+    font-size: 17px;
+    text-shadow: 1px 1px 10px black;
+}
+input :focus{
+    outline: none;
+    border-style: none;
+}
+#login{
+margin-top: 25vh;
+position: fixed;
+justify-content: center;
+width:200px;
+}

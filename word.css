@@ -1,0 +1,58 @@
+@font-face {
+    font-family: apple;
+    src: url(fonts/Calibri\ .ttf);
+}
+html, body {
+    margin:0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(170, 170, 170);
+}
+header{
+    background-color: rgb(50, 50, 199);
+    width: 100%;
+    height: 70px;
+    margin-top: -20px;
+    position: fixed;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    font-family: apple;
+    position: fixed;
+    text-align: center;
+}
+#toolbar{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(221, 221, 221);
+    border-bottom: 2px;
+    border-bottom-color: rgb(131, 131, 131);
+    border-bottom-style:solid;
+    position: fixed;
+    top:50px;
+}
+#area{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    resize: none;
+    width: 297mm;
+    border-style: none;
+    border-color: Transparent;
+    overflow: auto;
+    outline: none;
+    height:210mm;
+    margin-top:160px;
+    font-size: 14px;
+}
+footer{
+    background-color:rgb(73, 103, 130);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: apple;
+}

@@ -1,0 +1,89 @@
+@font-face {
+    font-family: apple;
+    src: url(../../fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+body{
+    background-color:rgb(233, 233, 233);
+    color:rgb(0, 0, 0);
+    display:flex;
+    flex-direction: row;
+    margin:0px;
+    font-family: apple;
+    overflow: hidden;
+}
+#list{
+    height: 100vh;
+    width:10%;
+    min-width: 100px;
+    background-color: rgb(203, 203, 203);
+    font-size: 14px;
+}
+#main{
+    height:100%;
+    justify-content: left;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+#test{
+    margin:10px;
+    
+    height:100px;
+    width:100px;
+    text-align: center;
+    border-radius: 7px;
+}
+#test:focus{
+    background-color: rgb(205, 205, 205);
+}
+#pinned{
+    margin:10px;
+    margin-top: 40px;
+}
+#items button{
+    width: 100%;
+    border-radius: 5px;
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 6px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    text-align: left;
+
+}
+#items button:focus{
+    background-color: rgb(162, 162, 162);
+}
+#topbar{
+    width:95%;
+    display:flex;
+    justify-content: left;
+    background-color: white;
+    color:black;
+    padding:10px;
+    padding-left: 20px;
+    padding-right: 5%;
+}
+#a{
+background-position: center;
+width:80px;
+height:80px;
+padding-top:10px;
+padding-left: 10px;
+word-wrap:break-word;
+text-align: center;
+text-shadow: -1px 1px 4px rgb(208, 208, 208);
+}
+#a img{
+    width:80px;
+    height:80px;  
+    background-color: rgba(240, 248, 255, 0); 
+    padding-bottom:20px;
+    
+}
+#item{
+    display: flex;
+    flex-wrap: wrap;
+}
