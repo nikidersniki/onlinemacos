@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: 185.128.246.111
+        server: sftp://185.128.246.111
         username: niki
         password: ${{ secrets.ftp_password }}
         port: 22
