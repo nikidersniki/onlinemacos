@@ -1,16 +1,18 @@
-on: push
-name: Publish Website
+on: [push]
+
 jobs:
-  FTP-Deploy-Action:
-    name: FTP-Deploy-Action
+    deploy_job:
     runs-on: ubuntu-latest
+    name: deploy
     steps:
-    - uses: actions/checkout@v2.1.0
-      with:
-        fetch-depth: 2
-    - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
-      with:
-        ftp-server: '185.128.246.111'
-        ftp-username: 'niki'
-        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        - name: Checkout
+        uses: actions/checkout@v2
+        - name: deploy file
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+            username: 'niki'
+            server: '185.128.246.111'
+            remote_path: '/var/www/html'
+            port: '22'
+            password: '1606'
+            sftpArgs: '-o ConnectTimeout=5'
