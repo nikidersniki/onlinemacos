@@ -7,10 +7,11 @@ jobs:
     steps:
         - name: Checkout
         uses: actions/checkout@v2
-        - name: deploy file
+        - name: Deploy file
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
             username: 'niki'
             server: '185.128.246.111'
-            password: ${{ secrets.FTP_PASSWORD }} 
+            port: '22'
             remote_path: '/var/www/html'
+            password: '1606'
