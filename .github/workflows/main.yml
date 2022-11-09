@@ -1,17 +1,17 @@
-on: [push]
-
+on: push
+name: Publish Website
 jobs:
-    deploy_job:
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
     runs-on: ubuntu-latest
-    name: deploy
     steps:
-        - name: Checkout
-        uses: actions/checkout@v2
-        - name: Deploy file
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-        with:
-            username: 'niki'
-            server: '185.128.246.111'
-            port: '22'
-            remote_path: '/var/www/html'
-            password: '1606'
+    - uses: actions/checkout@v2.1.0
+      with:
+        fetch-depth: 2
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      with:
+        ftp-server: ${{ secrets.FTP_SERVER }}
+        ftp-username: ${{ secrets.FTP_USERNAME }}
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: toupload
