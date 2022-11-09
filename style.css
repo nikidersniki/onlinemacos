@@ -32,7 +32,7 @@ footer{
     left: 50%;
     transform: translate(-50%);
     border-radius: 15px;  
-    z-index: 10; 
+    z-index: 14; 
 }
 #footer-buttons button{
     top: 0px;
@@ -59,7 +59,7 @@ footer{
     right:0px;
     top:0px;
     background-color: rgba(45, 45, 45, 0.512);
-    z-index: 4;
+    z-index: 13;
 }
 #Lheader{
     position: relative;
