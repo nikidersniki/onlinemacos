@@ -1,17 +1,16 @@
-on: push
-name: 🚀 Deploy website on push
+on: [push]
+
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
+    deploy_job:
     runs-on: ubuntu-latest
+    name: deploy
     steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v2
-    
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.2
-      with:
-        server: sftp://185.128.246.111
-        username: niki
-        password: ${{ secrets.ftp_password }}
-        port: 22
+        - name: Checkout
+        uses: actions/checkout@v2
+        - name: deploy file
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+            username: 'niki'
+            server: '185.128.246.111'
+            password: ${{ secrets.FTP_PASSWORD }} 
+            remote_path: '/var/www/html'
