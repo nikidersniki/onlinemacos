@@ -1,0 +1,40 @@
+@font-face {
+    font-family: apple;
+    src: url(fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+#box{
+  display:flex;  
+}
+#info{
+    padding-top: 60px;
+    display: block;
+    font-family: apple;
+    font-size: 13px;
+}
+#bold{
+    font-weight: 900;
+    font-size: 35px;
+}
+#line1{
+    display:flex; 
+    font-size: 35px;  
+}
+#line2{
+    font-family: apple;
+    font-size: 13px;
+}
+#img{
+    padding-left: 20px;
+    padding-top: 100px;
+    padding-right: 90px;
+}
+body{
+    background-color: rgb(240, 240, 240);
+}
+footer{
+    color: rgb(158, 158, 158);
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
