@@ -1,9 +1,6 @@
 <?php
 session_start();
-$servername = "localhost";
-$username = "debian-sys-maint";
-$password = "iRyG9PR1mA0Sl9lj";
-$dbname = "tests";
+
 $app = $_GET['app'];
 $img = $_GET['img'];
 echo $app;
