@@ -1,0 +1,45 @@
+html{
+    margin:0;
+    padding:0;
+}
+body{
+    background:transparent;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.draggable{
+    background-color: rgba(250, 235, 215, 0);
+    text-align: center;
+    transition: 0.1s;
+}
+
+img{
+    box-shadow: 1px 6px 6px rgba(0, 0, 0, 0.123);
+    border-radius: 15px;
+    margin-bottom: 7px;
+}
+.draggable:hover{
+    background-color: rgba(0, 0, 0, 0.515);
+    transition: 0s;
+}
+.draggable:hover > #label{
+   opacity: 1;
+   background-color: rgb(20, 56, 175);
+}
+#label{
+    position: relative;
+    top:5px;
+    color:white;
+    font-size: 17px;
+    text-shadow: 3px 3px 3px black;
+    padding:8px;
+    border-radius: 20px;
+    word-break: break-all;
+}
+form{
+    position: fixed;
+    top:0;
+    right:0;   
+}
+

@@ -21,7 +21,14 @@
       border-radius:10px 10px 10px 10px;
       animation:popup .3s cubic-bezier(.3,1,.3,1) backwards;
     }
-      
+  .winbox.Appcreator{
+      background-color: rgba(0, 0, 0, 0.356);
+      border-width: 1px;
+      border-style: solid;
+      border-color: transparent;
+      backdrop-filter: blur(6px);
+      border-radius:20px 20px 20px 20px;
+      animation:popup .3s cubic-bezier(.3,1,.3,1) backwards}    
       
 .winbox:not(.min):not(.focus){
         background:#eeeeee}@media (hover:hover){
@@ -41,7 +48,7 @@
 .winbox .wb-body{
     margin:4px;
     color:#fff;
-    background:rgba(0, 0, 0, 0.356);
+    background:rgba(0, 0, 0, 0);
 }
 .winbox .wb-body::-webkit-scrollbar{
     width:12px;

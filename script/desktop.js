@@ -238,3 +238,26 @@ function logo_dropdown() {
       }
     }
   }
+
+  function appcreator() {
+    var cl=event.target.className;
+     new WinBox("‎", {
+           class: ["no-resize", "Appcreator",],
+           width: "600",
+           height: "563",
+           url: "apps/AppCreator/create.php",
+           onclose: function(rm_word){
+           const element = document.getElementById('Settings');
+           element.remove();
+       },
+   })
+   var tag = document.createElement("button");
+   tag.id = 'Settings';
+   tag.name = 'Settings';
+   tag.style.backgroundColor = "#00000000";
+   var element = document.getElementById("footer-buttons");
+   element.appendChild(tag);
+   };
+  function logo_dropdown() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }

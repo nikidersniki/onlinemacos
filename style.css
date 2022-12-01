@@ -5,7 +5,7 @@
 body{
     background-color: #e6e6e6;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     margin:0px;
     overflow: hidden;
     width:auto;
@@ -812,4 +812,11 @@ margin-right: 10px;
 #loading_logo{
   padding-top: 20%;
   padding-bottom: 70px;
+}
+#desktop_icons iframe{
+  padding-top: 25px;
+  width: 100%;
+  height:100em;
+  border:none;
+  margin-bottom: 100px;
 }
