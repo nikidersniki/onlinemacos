@@ -1,8 +1,5 @@
 <?php
-$servername = "localhost";
-$username = "debian-sys-maint";
-$password = "iRyG9PR1mA0Sl9lj";
-$dbname = "tests";
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
