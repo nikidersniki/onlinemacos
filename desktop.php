@@ -26,7 +26,7 @@ $_SESSION["text"] = "";
 }
 </script>
 <script src="/script/desktop.js"></script>
-<body onmouseover="body.style.zoom='<?php echo $scale;?>%'" onmouseenter="">
+<body onmouseover="body.style.zoom='90%'" onmouseenter="">
 <!--Moved almost all js functions into desktop.js-->
 <script src="/script/desktop.js"></script>
 <!--Load zoom level-->
