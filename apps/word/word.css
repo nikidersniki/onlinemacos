@@ -1,0 +1,132 @@
+@font-face {
+    font-family: apple;
+    src: url(../../fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+html, body {
+    margin:0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(170, 170, 170);
+}
+header{
+    color:white;
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    height: 70px;
+    margin-top: -20px;
+    position: fixed;
+    text-align: center;
+    font-family: apple;
+}
+header h1{
+    font-size: 30px;
+    font-family: apple;
+    position: fixed;
+    text-align: center;
+}
+#toolbar{
+    width: 100%;
+    height: 150px;
+    background-color: #323130;
+    border-bottom: 2px;
+    border-bottom-color: rgb(131, 131, 131);
+    border-bottom-style:solid;
+    position: fixed;
+    top:50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#area{
+    background-color: rgb(255, 255, 255);
+    left: auto;
+    right: auto;
+    width: 80%;
+    resize: none;
+    border-style: none;
+    border-color: Transparent;
+    overflow: auto;
+    outline: none;
+    height:210mm;
+    margin-top:240px;
+    font-size: 17px;
+}
+.tooltext{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height:33px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #323130;
+    color:white;
+    text-align: center;
+}
+.tooltext:hover{
+    background-color: rgb(87, 87, 87);
+}
+#filler{
+    width: 100%;
+}
+#paste{
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#texttools{
+
+}
+#tools{
+    display: flex;
+    flex-direction: row;
+}
+#safe{
+    visibility: hidden;
+    position:fixed;
+    top:0;
+    width: 100%;
+    height:100%;
+    background-color: #242424;
+    transition: 0.5s ease-out;
+}
+#safe-bar{
+    width: 150px;
+    height:100%;
+    background-color: rgb(54, 54, 54);
+    text-align: left;
+}
+#safe-back{
+    width:150px;
+    height:50px;
+    background-image: url(img/back.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 20px;
+}
+#safe-back:hover{
+    background-color: rgb(32, 32, 134);
+}
+#safe-bar h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 300;
+    padding-left: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color:white
+}
+#safe-bar h2:hover{
+    background-color: rgb(32, 32, 134);
+}
+#safe-home{
+    background-color: rgb(44, 44, 177);
+    border:2px white solid;
+}
+#line{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    width: 120px;
+    margin-left: 15px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlineMacOS</title>
+    <link rel="stylesheet" href="login.css">
+    <script>
+        function login(){
+            document.querySelector("#default").style.display = "none";
+            document.querySelector("#login input").style.display = "block";
+            document.querySelector("#login #uname").style.display = "block";
+            document.querySelector("#text").innerHTML = "No Account ?";
+        }
+    </script>
+    <div id="top"><div id="lang">US</div><div id="date"></div><div id="time"></div></div>
+    <div id="profile">
+        <div id="default"><img src="default.jpg"><h1>Default</h1></div>
+        <div id="account" onclick="login()"><img src="Question.png"><h1>Account</h1></div>
+    </div>
+    <div id="login"><input type="text" placeholder="Username" id="pw"><input type="text" placeholder="Enter Password" id="uname"></div>
+    <div id="info"><div id="text" onclick="window.open('../installer/', '_self')"></div></div>
+    <footer>
+        <div id="shut"><h2>Shut Down</h2></div>
+        <div id="restart"><h2>Restart</h2></div>
+        <div id="sleep"><h2>Sleep</h2></div>
+    </footer>
+    <script>
+        GetTime();
+        function GetTime(){
+            var CurrentTime = new Date()
+            var hour = CurrentTime.getHours()
+            var minute = CurrentTime.getMinutes()
+
+            if(minute < 10){
+            minute = "0" + minute
+            }
+
+            var GetCurrentTime = hour + ":" + minute + " ";
+
+            document.getElementById("time").innerHTML = GetCurrentTime;
+            setTimeout(GetTime,1000)
+        }
+
+
+            var current = new Date();
+            const element3 = document.getElementById('date');
+            date = current.toLocaleDateString(); 
+            element3.innerHTML = date;
+    </script>
+</head>
+<body>
+</body>
+</html>

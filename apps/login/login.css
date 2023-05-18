@@ -3,7 +3,7 @@
     src: url(../../fonts/SFPRODISPLAYMEDIUM.OTF);
 }
 body{   
-    background-image:url(background.jpg);
+    background-image:url(bg.jpg);
     display: flex;
     justify-content: center;
     margin:0;

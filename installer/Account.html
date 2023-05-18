@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacOS Online · Installer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <input type="file" id="file-input" style="display:none" accept="image/*">
+    <div id="main2">
+        <h1 class="center">Create a Computer Account</h1>
+        <h2 class="center">Fill out the following information to create your computer account.</h2>
+        <div id="inputt" class="center">
+        <div id="i" >
+            <div id="name" class="center">Full name:<input type="text"></div>
+            <div id="accountname" class="center">Account name:<input type="text"></div>
+        </div>
+        <div id="icon" onclick="openFileExplorer(this)"><img src="../login/Question.png" width="20%"></div>
+        <div id="password" class="center">Password:<input type="password" placeholder="§dgr5Fedfkoanru?"><input type="password" placeholder="repeat"></div>
+        </div>
+        
+        <div id="c" onclick="window.open('Darkmode.html', '_self')"><div id="hover" class=""><div id="next" class=""><img src="Right.png" width="50px"></div><br><h3>Continue</h3></div></div>
+    </div>
+    <script>
+ function openFileExplorer(image) {
+  document.getElementById('file-input').click();
+  selectedImage = image;
+}
+
+let selectedImage;
+
+document.getElementById('file-input').addEventListener('change', function() {
+  const file = this.files[0];
+  if (file) {
+    const reader = new FileReader();
+    reader.addEventListener('load', function() {
+      const img = new Image();
+      img.onload = function() {
+        if (img.width === img.height) {
+          selectedImage.src = reader.result;
+          document.querySelector("#icon img").src = reader.result;
+          console.log(reader.result);
+        } else {
+          alert('Please select a square image.');
+        }
+      }
+      img.src = reader.result;
+    });
+    reader.readAsDataURL(file);
+  }
+});
+    </script>
+</body>
+</html>

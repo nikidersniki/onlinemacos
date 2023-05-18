@@ -1,9 +1,9 @@
-<?php     
-    include('connection.php');  
-    $NAME = $_POST['user'];  
-    $PWD = $_POST['pass']; 
-        $sql = "select *from users where NAME = '$NAME' and PWD = '$PWD'";  
-        $result = mysqli_query($con, $sql);  
+<?php        
+     include('connection.php');  
+     $NAME = $_POST['user'];  
+     $PWD = $_POST['pass']; 
+         $sql = "select *from users where NAME = '$NAME' and PWD = '$PWD'";  
+         $result = mysqli_query($con, $sql);   
         $row = mysqli_fetch_array($result, MYSQLI_ASSOC);  
         $count = mysqli_num_rows($result);  
         session_start();

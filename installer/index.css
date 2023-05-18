@@ -1,0 +1,192 @@
+@font-face {
+    font-family: lightapple;
+    src: url(../fonts/FontsFree-Net-SFProDisplay-Ultralight.ttf);
+}
+body{
+    background-color: rgb(77, 77, 77);
+    transition: background-color 2s ease-in-out;
+}
+#main{
+    transition: background-color 2s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 70px;
+    background-color: white;
+    border-radius: 10px;
+    }
+#language{
+    border: 1px grey solid;
+    display: block;
+    width:25%;
+    margin-left: 37.5%;
+    background-color: rgb(197, 197, 197);
+    margin-bottom: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#language:hover{
+    border: 5px rgba(66, 131, 253, 0.747) solid;
+    border-radius: 2px;
+    display: block;
+    width:25%;
+    margin-bottom: 22px;
+    color:white;
+    margin-left: 37.5%;
+    background-color: rgb(30, 43, 224);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#e{
+    padding-top:3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+#emty{
+    padding-top:3px;
+    padding-bottom: 3px;
+    height:20px;
+    background-color: rgb(255, 255, 255);
+}
+#vo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color:white;
+    text-align: center;
+    position: relative;
+    bottom: -50px;
+}
+h1{
+    font-size: 40px;
+    color: rgb(160, 160, 160);
+    font-family: lightapple;
+}
+h3{
+    margin-top: -10px;
+    color:rgb(146, 146, 146);
+    font-weight: 480;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color:rgb(102, 102, 102);
+    font-weight: 400;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    letter-spacing: 5px;
+    margin-bottom: 0;
+}
+#hover{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: -10px;
+    margin-bottom: 10px;
+}
+#hover:hover{
+    border-radius: 20px;
+    background-color: rgb(209, 209, 209);
+    width: 100px;
+}
+#c{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#main2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 70px;
+    background-color: white;
+    border-radius: 10px;
+}
+#main2 input{
+    height:20px;
+    margin-bottom: 25px;
+}
+#password{
+    width: 100%;
+    font-size: 18px;
+    margin-left:-25px ;
+}
+#password input{
+    width: 235px;
+    margin-left: 10px;
+}
+#accountname{
+    font-size: 18px;
+    margin-left:-321px ;
+}
+#accountname input{
+    width: 300px;
+    margin-left: 10px;
+}
+#name{
+    font-size: 18px;
+    margin-left: -284px;
+}
+#name input{
+    width: 300px;
+    margin-left: 10px;
+}
+#main2 h2{
+    margin-bottom: 100px;
+}
+#icon{
+   width: 400px;
+   padding-left: 50px;
+}
+#inputt{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+#i{
+    padding-left: 512px;
+}
+#icon img{
+    border-radius: 50%;
+}
+#color{
+    margin-top: 40px;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#light{
+    margin-right: 70px;
+    width: 50%;
+    height: 300px;
+    background-color: rgb(240, 240, 240) ;
+    border-radius: 10px;
+}
+#dark{   
+    border-radius: 10px;
+    width: 50%;
+    height: 300px;
+    background-color: rgb(53, 53, 53) ;
+}
+body.black {
+    background-color: rgb(22, 22, 22);
+  }
+#main.black{
+    background-color: rgb(51, 51, 51);
+}

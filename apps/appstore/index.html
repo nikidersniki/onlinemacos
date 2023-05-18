@@ -1,1 +1,52 @@
-Work in Progress...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="store.css">
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <div id="nav">
+        <div id="Search"><input type="text" placeholder="Search" id="search-query" oninput="getapps(this.value)"></div>
+        <div id="Discover" onclick="location.reload();">Discover</div>
+        <div id="Create" onclick="category('Create')">Create</div>
+        <div id="Work" onclick="category('Work')">Work</div>
+        <div id="Play" onclick="category('Play')">Play</div>
+        <div id="Develop" onclick="category('Develop')">Develop</div>
+        <div id="account"><img src="Generic-profile-image-002.png" width="50px">Username<div id="acc-name"></div></div>
+    </div>
+    <div id="scroll">
+        <div id="Widget-Big">
+            <div id="big-text">
+                <h2>
+                    KNOWLEGE IS POWER
+                </h2>
+                <h1>
+                    Wikipedia
+                </h1>
+                <div id="big-descrition">
+                    Wikipedia is a free, multilingual online encyclopedia that allows users to contribute and edit its content. It was founded in 2001 by Jimmy Wales and Larry Sanger, and has since become one of the most widely used sources of information on the internet. Wikipedia contains over 6 million articles in English alone, covering a wide range of topics, from history and science to pop culture and current events. Its open editing system allows anyone with internet access to edit its articles, which has led to criticism and controversy over the accuracy and reliability of its content. Nonetheless, Wikipedia remains a valuable resource for information and research for millions of people around the world.
+                </div>
+            </div>
+            <div id="big-img"><img src="Screenshot 2023-03-27 211358.png"></div>
+        </div>
+        <div id="sec">
+            <div id="sec1">Creative Apps<br></div>
+            <div id="sec2">Multimedia Apps</div>
+        </div>
+        <div id="featured">Featured:
+            <ul>
+                <li>app1</li>
+                <li>app2</li>
+                <li>app3</li>
+                <li>app4</li>
+            </ul>
+        </div>
+        <div id="info"></div>
+    </div>
+</body>
+</html>
