@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
     font-family: apple;
     src: url(fonts/SFPRODISPLAYMEDIUM.OTF);
@@ -820,4 +821,827 @@ margin-right: 10px;
   border:none;
   margin-bottom: 100px;
   background-color: transparent;
+=======
+@font-face {
+    font-family: apple;
+    src: url(fonts/SFPRODISPLAYMEDIUM.OTF);
+}
+body{
+    background-color: #e6e6e6;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin:0px;
+    overflow: hidden;
+    width:auto;
+    zoom: 80%;
+}
+.grid-container {
+    display: flex;
+    margin:40px 20px 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+footer{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.596);
+    background-color: rgba(255, 255, 255, 0.548);
+    backdrop-filter: blur(10px);
+    max-width: auto;
+    min-width: 100px;
+    position:absolute;
+    display: flex;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 15px;  
+    z-index: 14; 
+}
+#footer-buttons button{
+    top: 0px;
+    position: relative;
+    margin-right:10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+#footer-buttons{
+  top: 0px;
+  position: relative;
+  margin:5px;
+  display: inline-flex;
+  flex-direction: row;
+}
+#launchpad{
+    backdrop-filter: blur(10px);
+    padding-top: 100px;
+    position:absolute;
+    display:none;
+    bottom:0px;
+    left: 0px;
+    right:0px;
+    top:0px;
+    background-color: rgba(45, 45, 45, 0.512);
+    z-index: 13;
+}
+#Lheader{
+    position: relative;
+    font-size: 30px;
+    font-family: apple;
+    text-shadow: 1px 6px 6px rgba(149, 150, 150, 1);
+    z-index: 100;
+}
+#finder
+{
+    background-image: url(/img/finder.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border-style: none;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    position: relative;
+    left:7px;
+}
+#launch
+{
+  background-color: transparent;
+    height: 50px;
+    width: 50px; 
+    border-radius: 10px; 
+    border-style: none;
+    color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+audio{
+    margin-top: 100px;
+}
+#header{
+    background-color: rgba(255, 255, 255, 0.582);
+    width: 100%;
+    position:absolute;
+    display: flex;
+    top:0px;
+    z-index: 4;
+    font-family: apple; 
+    font-size: 20px; 
+}
+#header img{
+    opacity: 0.9;
+    margin:1px;
+}
+#twitter {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    }
+    
+#twitterhead{
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+    }
+#filler{
+    width: 100%;
+    z-index: -1;
+    height: 125vh;
+      }
+#logo{
+margin-left: 25px;
+border-bottom-left-radius:20px ;
+border-bottom-right-radius:20px ;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    color: rgb(0, 0, 0);
+    font-size: 6px;
+    border: none;
+    cursor: pointer;
+
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: rgba(12, 66, 174, 0);
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  #myDropdown{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top:1px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff7f;
+    backdrop-filter: blur(10px);
+    min-width: 300px;
+    box-shadow: 0px 0px 8px rgba(45, 45, 45, 0.689);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding-left: 5px;
+    padding-top: 9px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #0000002d;
+    border-radius: 5px;
+}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {
+    display:block;
+}
+#topbar{
+    position: relative;
+    bottom:4px;
+    padding-left: 10px;
+    text-decoration-style: none;
+    color: rgba(0, 0, 0, 0.833);
+    font-size: 16px;
+    font-family: apple;
+    cursor: pointer;
+}
+#about{
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+#appstore{
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+#recent{
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+#quit{
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+#slideSource {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 1s; 
+  }
+  
+  #slideSource.fade {
+    opacity: 0;
+  }
+  #Word{
+    background-image: url(/img/word.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-style: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  }
+  #Finder{
+    background-image: url(/img/finder.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-style: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  }
+  #calc{
+    background-image: url(/apps/calc_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-style: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  }
+  #Settings{
+    background-image: url(/img/settingsicon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-style: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  }
+  #store{
+    background-image: url(/apps/appstore/app.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-style: none;
+	  color: inherit;
+	  border: none;
+	  font: inherit;
+	  cursor: pointer;
+	  outline: inherit;
+  }
+  #doom{
+    background-image: url(/img/doom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-style: none;
+	  color: inherit;
+	  border: none;
+	  font: inherit;
+	  cursor: pointer;
+	  outline: inherit;
+  }
+  #music{
+    background-image: url(/img/apple_music.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-style: none;
+	  color: inherit;
+	  border: none;
+	  font: inherit;
+	  cursor: pointer;
+	  outline: inherit;
+  }
+  #mc{
+    background-image: url(/img/minecraft.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-style: none;
+	  color: inherit;
+	  border: none;
+	  font: inherit;
+	  cursor: pointer;
+	  outline: inherit;
+  }
+  #Finder2{
+    background-image: url(/img/folder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-style: none;
+	  color: inherit;
+	  border: none;
+	  font: inherit;
+	  cursor: pointer;
+	  outline: inherit;
+  }
+  #background{
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    background-color: transparent;
+    width: 50px;
+    border-radius: 5px;
+    border-style: none;
+	  color: inherit;
+	  border: none;
+	  font: inherit;
+	  cursor: pointer;
+	  outline: inherit;
+  }
+  #background2{
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    background-color: transparent;
+    width: 50px;
+    border-radius: 5px;
+    border-style: none;
+	  color: inherit;
+	  border: none;
+	  font: inherit;
+	  cursor: pointer;
+	  outline: inherit;
+  }
+  #dock_{
+    border-right: 2px grey solid;
+    border-left: none;
+    border-top: none;
+    border-bottom:none;
+    background: transparent;
+    margin-left:-5px;
+    padding:0px;
+  }
+  #terminal{
+    background-image: url(/apps/terminal/icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    background-color: transparent;
+    width: 50px;
+    border-radius: 5px;
+    border-style: none;
+	  color: inherit;
+	  border: none;
+	  font: inherit;
+	  cursor: pointer;
+	  outline: inherit;
+  }
+  #trash{
+    margin-top:10px;
+    margin-bottom: 10px;
+    border-left: 2px grey solid;
+  }
+  #battery{
+    position: absolute;
+    top:6px;
+    right:340px;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  #batteryimg{
+    position: absolute;
+    top:4px;
+    right:300px;
+  }
+  #date{
+    top:6px;
+    position: absolute;
+    font-weight: 500;
+    font-size: 15px;
+    right:80px;
+  }
+  #time{
+    top:6px;
+    position: absolute;
+    font-weight: 500;
+    font-size: 15px;
+    right:20px;
+  }
+  #controll{
+    top:3px;
+    position: absolute;
+    right:165px;
+    cursor: pointer;
+  }
+
+
+
+
+  /* Dropdown Button */
+.dropbtn {
+    color: rgb(0, 0, 0);
+    font-size: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: rgba(12, 66, 174, 0);
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  #controll_drop{
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top:1px;
+    right:20px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .controll_dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff7f;
+    backdrop-filter: blur(10px);
+    min-width: 400px;
+    box-shadow: 0px 0px 8px rgba(45, 45, 45, 0.689);
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding-left: 5px;
+    padding-top: 9px;
+    padding-bottom: 2px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #0000002d;
+    border-radius: 5px;
+}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show2 {
+    display:block;
+}
+#wrap2{
+    display:flex;
+    background-color: transparent;
+    margin: 4px;
+}
+#wrap3{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.291);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px rgba(62, 62, 62, 0.649);
+}
+#wrap4{
+    flex-direction: column;
+    display: flex; 
+    width:50%;
+    margin-right: 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#wrap5{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.291);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px rgba(62, 62, 62, 0.649);
+}
+#wrap6{
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex; 
+}
+#wrap7{
+    width: 50%;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 8px;
+    background-color: rgba(255, 255, 255, 0.291);
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px rgba(62, 62, 62, 0.649);
+}
+#wrap8{
+    width: 50%;
+    margin-top: 5px;
+    margin-right: 8px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.291);
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px rgba(62, 62, 62, 0.649);
+}
+#wifi{
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+   display:flex; 
+   flex-direction: row;
+   font-size: 13px;
+}
+#wifi div{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+#wifi div h1{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 15px;
+}
+#wifi div p{
+    text-align: left;
+    display: flex;
+    font-weight: 200;
+    color: #6a6a6a;
+    flex-direction: column;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding: 0px;
+}
+#blue{
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+   display:flex; 
+   flex-direction: row;
+   font-size: 13px;
+}
+#blue div{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+#blue div h1{
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 15px;
+}
+#blue div p{
+    font-weight: 200;
+    color: #6a6a6a;
+    margin-top: 3px;
+    text-align: left;
+    margin-bottom: 0px;
+    padding: 0px;
+    margin-left: 10px;
+}
+#air{
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-bottom: 14px;
+    margin-left: 12px;
+   display:flex; 
+   flex-direction: row;
+   font-size: 13px;
+}
+#air div{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+#air div h1{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 15px;
+}
+#air div p{
+    text-align: left;
+    display: flex;
+    font-weight: 200;
+    color: #6a6a6a;
+    flex-direction: column;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding: 0px;
+}
+#work{
+    flex-direction: row;
+    display: flex; 
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+#work p{
+    flex-direction: row;
+    display: flex; 
+    margin-left: 10px;
+    font-size: 16px;
+}
+#memo{
+    width:100%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    display: flex; 
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#memo img{
+margin-right: 10px;
+}
+#wrap9{
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 8px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.291);
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px rgba(62, 62, 62, 0.649); 
+}
+#wrap9 p{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+#wrap10{
+    width: 100%;
+    margin-top: 5px;
+    margin-right: 8px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.291);
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px rgba(62, 62, 62, 0.649); 
+}
+#wrap10 p{
+    padding-top: 20px;
+   margin-left: 20px;
+}
+.slidecontainer {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    border-radius: 15px;
+    background: #f3f3f3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border: 1px solid grey;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    background: #e6e6e6;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #e6e6e6;
+    border: 1px solid grey;
+    cursor: pointer;
+  }
+  #wrap11{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:inline-flex;
+    flex-direction: row;
+    width: 97%;
+    margin-top: 15px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.291);
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px rgba(62, 62, 62, 0.649); 
+}
+#wrap11 p {
+    padding-left: 10px;
+}
+#play{
+    position: relative;
+    left:256px
+}
+#skip{
+    position: relative;
+    left:256px
+}
+#loader{
+  z-index: 999999;
+  background-color: black;
+  position: fixed;
+  height:1000vh;
+  width:100%;
+  display: inline-flex;
+  flex-direction: column;
+  user-select: none;
+  pointer-events: none;
+}
+#loading_logo{
+  padding-top: 20%;
+  padding-bottom: 70px;
+}
+#desktop_icons iframe{
+  padding-top: 25px;
+  width: 100%;
+  height:100em;
+  border:none;
+  margin-bottom: 100px;
+>>>>>>> cdf59e01ff58008d060fcf1ac872b2678c51510f
 }

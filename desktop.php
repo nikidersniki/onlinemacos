@@ -25,12 +25,14 @@ $_SESSION["text"] = "";
     }, 2000);
 }
 </script>
+<script src="/script/desktop.js"></script>
+<body onmouseover="body.style.zoom='<?php echo $scale;?>%'" onmouseenter="">
 <!--Moved almost all js functions into desktop.js-->
 <script src="/script/desktop.js"></script>
 <!--Load zoom level-->
 <body onmouseover="body.style.zoom='90%'" onmouseenter="">
 <div id="loader"><center><div id="loading_logo"><img src="img/Apple2.svg" width="100px" height="100px"></div><img src="img/loading-icon.gif" width="30px" height="30px"></center></div>
-<div id="desktop_icons"><iframe src="https://onlinemacos.dev/desktop/?uname=<?php echo $_SESSION["NAME"]?>"></iframe></div>
+<div id="desktop_icons"><iframe src="https://onlinemacos.dev/test/?name=<?php echo $_SESSION["NAME"]?>"></iframe></div>
     <div id="header"><div id="logo"><img src="img/Apple_logo_black.svg" height="20px" onclick="logo_dropdown()" class="dropbtn">
     <div id="myDropdown" class="dropdown-content">
     <a onclick="about()" id="about">About This Mac</a>
@@ -130,8 +132,8 @@ $_SESSION["text"] = "";
 <div class="grid-container">
 <div onclick="music();"><img src="/img/apple_music.svg" width="150px"></div>
 <div onclick="calc();"><img src="/apps/calc_icon.png" width="150px"></div>
-<div onclick="appcreator();"><img src="/img/Apple_logo_black.svg.png" width="150px" height="150px"></div>
-<div onclick="fedora();"><img src="/img/linux.png" width="150px"></div>
+<div onclick="none();"><img src="/img/Image_PlaceHolder.png" width="150px"></div>
+<div onclick="none();"><img src="/img/Image_PlaceHolder.png" width="150px"></div>
 <div onclick="none();"><img src="/img/Image_PlaceHolder.png" width="150px"></div>
 <div onclick="none();"><img src="/img/Image_PlaceHolder.png" width="150px"></div>
 <div onclick="none();"><img src="/img/Image_PlaceHolder.png" width="150px"></div>
